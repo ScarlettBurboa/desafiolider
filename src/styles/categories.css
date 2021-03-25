@@ -1,0 +1,61 @@
+
+.menu-item {
+    padding: 0 5px;
+    margin: 5px 10px 0px 10px;
+    user-select: none;
+    cursor: pointer;
+    border-bottom: 3px solid transparent;
+    -webkit-text-stroke: .5px transparent;
+    text-align: center;
+}
+.menu-item:hover {
+    padding: 0 5px;
+    margin: 5px 10px -12px 10px;
+    user-select: none;
+    cursor: pointer;
+    color: rgb(0, 113, 206);
+    border-bottom: 3px solid #ffc220;
+    -webkit-text-stroke: .5px rgb(0, 113, 206);
+    text-align: center;
+}
+.menu-item:focus {
+    padding: 0 5px;
+    margin: 5px 10px -12px 10px;
+    user-select: none;
+    cursor: pointer;
+    color: rgb(0, 113, 206);
+    border-bottom: 3px solid #ffc220;
+    -webkit-text-stroke: .5px rgb(0, 113, 206);
+    text-align: center;
+}
+.menu-item-wrapper.active {
+    border: 1px transparent solid;
+}
+.menu-item-wrapper:focus {
+    border: 1px transparent solid;
+}
+.menu-item.active {
+    font-size: .7rem;
+}
+
+.scroll-menu-arrow {
+    padding: 5px;
+    cursor: pointer;
+}
+.container{
+    bottom: unset;
+    box-shadow: rgb(150 150 150) 0px 9px 11px -10px;
+    background-color: white;
+}
+.container-item{
+    margin-top: 0px;
+}
+.icono{
+    margin: 0px auto;
+    display: block;
+}
+.marginLateral{
+    padding-left : 15px !important;
+    padding-top: 2px;
+    padding-bottom: 0px !important;
+}
